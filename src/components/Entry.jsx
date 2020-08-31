@@ -5,7 +5,7 @@ function Entry(props) {
     <dl className="dictionary">
       <div className="term">
         <dt>
-          <span className="emoji" role="img" aria-label="Tense Biceps">
+          <span className="emoji" role="img" aria-label={props.emoji}>
             {props.emoji}
           </span>
           <span>{props.name}</span>
