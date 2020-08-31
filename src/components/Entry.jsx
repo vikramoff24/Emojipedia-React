@@ -14,4 +14,4 @@ function Entry(props) {
   );
 }
 
-xport default Entry;
+export default Entry;
